@@ -263,7 +263,7 @@ a {
   transition: border-bottom-color 0.25s ease-in-out;
   text-decoration: none;
   color: #000000;
-  border-bottom: dotted 1px;
+  /*border-bottom: dotted 1px;*/
 }
 
 a:hover {
@@ -2061,6 +2061,14 @@ button.primary:hover,
   background-color: #93ffe7;
 }
 
+.icon {
+  width: 1.25em;
+  display: inline;
+  margin-right: 40px;
+  position: relative;
+  top: 0.35em;
+}
+
 input[type="submit"].primary:active,
 input[type="reset"].primary:active,
 input[type="button"].primary:active,
@@ -2699,6 +2707,7 @@ ul.actions {
   list-style: none;
   margin-left: -1rem;
   padding-left: 0;
+  margin-top: 24px;
 }
 
 ul.actions li {
