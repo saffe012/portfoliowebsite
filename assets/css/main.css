@@ -215,9 +215,17 @@ html {
   font-size: 18pt;
 }
 
+.caption {
+  font-size: 18px;
+}
+
 @media screen and (max-width: 1920px) {
   html {
     font-size: 13pt;
+  }
+
+  .caption {
+    font-size: 16px;
   }
 }
 
@@ -225,17 +233,29 @@ html {
   html {
     font-size: 14pt;
   }
+
+  .caption {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 736px) {
   html {
     font-size: 12pt;
   }
+
+  .caption {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 480px) {
   html {
     font-size: 11pt;
+  }
+
+  .caption {
+    font-size: 10px;
   }
 }
 
